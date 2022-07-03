@@ -1,0 +1,15 @@
+name: GoldmanSkins
+main: lee.code.skins.GoldmanSkins
+version: ${project.version}
+api-version: 1.19
+author: Lee
+depend: [GoldmanCore]
+commands:
+  giveskin:
+    description: Give a target user a skin.
+    permission: skins.command.giveskin
+    usage: "/giveskin &f<skin> <user>"
+  skins:
+    description: Menu of all skins.
+    permission: skins.command.skins
+    usage: "/skins"
