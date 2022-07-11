@@ -37,6 +37,7 @@ public enum Skin {
     ENDER_BOW("&e&lEnder Bow", SkinType.BOW, 5002),
     AQUA_BOW("&e&lAqua Bow", SkinType.BOW, 5003),
     GOLDEN_CROOK_STAFF("&e&lGolden Crook Staff", SkinType.BOW, 5004),
+    SUNKEN_GEM_BOW("&e&lSunken Gem Bow", SkinType.BOW, 5005),
 
     //pickaxes
     FIERY_PICKAXE("&e&lFiery Pickaxe", SkinType.PICKAXE, 6000),
@@ -78,7 +79,16 @@ public enum Skin {
 
     //fishing rod
     BROKEN_BRANCH_FISHING_ROD("&e&lBroken Branch Fishing Rod", SkinType.FISHING_ROD, 12000),
+    GOLDEN_GLORY_FISHING_ROD("&e&lGolden Glory Fishing Rod", SkinType.FISHING_ROD, 12001),
+    SUNKEN_GEM_FISHING_ROD("&e&lSunken Gem Fishing Rod", SkinType.FISHING_ROD, 12002),
 
+    //crossbows
+    CALAMITY_CROSSBOW("&e&lCalamity Crossbow", SkinType.CROSSBOW, 13000),
+    BACKWOODS_CROSSBOW("&e&lBackwoods Crossbow", SkinType.CROSSBOW, 13001),
+    ICE_COLD_CROSSBOW("&e&lIce Cold Crossbow", SkinType.CROSSBOW, 13002),
+    CRYSTAL_CROSSBOW("&e&lCrystal Crossbow", SkinType.CROSSBOW, 13003),
+    ROYAL_CROSSBOW("&e&lRoyal Crossbow", SkinType.CROSSBOW, 13004),
+    DIP_WOOD_CROSSBOW("&e&lDip Wood Crossbow", SkinType.CROSSBOW, 13005),
 
     ;
 
