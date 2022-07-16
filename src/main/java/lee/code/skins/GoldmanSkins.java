@@ -12,11 +12,13 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class GoldmanSkins extends JavaPlugin {
 
+    @Getter private SkinsAPI skinsAPI;
     @Getter private Data data;
     @Getter private PU pU;
 
     @Override
     public void onEnable() {
+        this.skinsAPI = new SkinsAPI();
         this.data = new Data();
         this.pU = new PU();
 

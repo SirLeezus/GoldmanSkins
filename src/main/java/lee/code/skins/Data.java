@@ -43,6 +43,9 @@ public class Data {
         supportedTypes.put(SkinType.SWORD, EnumSet.allOf(SupportedSword.class).stream().map(SupportedSword::getMaterial).toList());
         supportedTypes.put(SkinType.AXE, EnumSet.allOf(SupportedAxe.class).stream().map(SupportedAxe::getMaterial).toList());
         supportedTypes.put(SkinType.BOW, EnumSet.allOf(SupportedBow.class).stream().map(SupportedBow::getMaterial).toList());
+        supportedTypes.put(SkinType.SHOVEL, EnumSet.allOf(SupportedShovel.class).stream().map(SupportedShovel::getMaterial).toList());
+        supportedTypes.put(SkinType.SHEARS, EnumSet.allOf(SupportedShears.class).stream().map(SupportedShears::getMaterial).toList());
+        supportedTypes.put(SkinType.HOE, EnumSet.allOf(SupportedHoe.class).stream().map(SupportedHoe::getMaterial).toList());
         supportedTypes.put(SkinType.PICKAXE, EnumSet.allOf(SupportedPickaxe.class).stream().map(SupportedPickaxe::getMaterial).toList());
         supportedTypes.put(SkinType.FISHING_ROD, EnumSet.allOf(SupportedFishingRod.class).stream().map(SupportedFishingRod::getMaterial).toList());
         supportedTypes.put(SkinType.CROSSBOW, EnumSet.allOf(SupportedCrossbow.class).stream().map(SupportedCrossbow::getMaterial).toList());

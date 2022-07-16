@@ -45,6 +45,7 @@ public enum Skin {
     PICK_OF_DESTINY("&e&lPick Of Destiny", SkinType.PICKAXE, 6002),
     EMERALD_HERO_PICKAXE("&e&lEmerald Hero Pickaxe", SkinType.PICKAXE, 6003),
     YURILILY_PICKAXE("&e&lYurilily Pickaxe", SkinType.PICKAXE, 6004),
+    GRIM_VIOLET_PICKAXE("&e&lGrim Violet Pickaxe", SkinType.PICKAXE, 6005),
 
     //axes
     AZURE_GREATAXE("&e&lAzure Greataxe", SkinType.AXE, 7000),
@@ -52,12 +53,17 @@ public enum Skin {
     RUTHLESS_WAR_AXE("&e&lRuthless War Axe", SkinType.AXE, 7002),
     HYPER_EDGE_AXE("&e&lHyper Edge Axe", SkinType.AXE, 7003),
     FROST_AXE("&e&lFrost Axe", SkinType.AXE, 7004),
+    HOPES_END_AXE("&e&lHope's End Axe", SkinType.AXE, 7005),
+    DEVOTION_AXE("&e&lDevotion Axe", SkinType.AXE, 7006),
+    SLICE_OF_LIFE_AXE("&e&lSlice of Life Axe", SkinType.AXE, 7007),
 
     //hoes
     AZURE_SCYTHE("&e&lAzure Scythe", SkinType.HOE, 8000),
     STEEL_LEAF_HOE("&e&lSteel Leaf Hoe", SkinType.HOE, 8001),
-    URRE_HOE("&e&lUrre Hoe", SkinType.HOE, 8002),
+    INFERNAL_HOE("&e&lInfernal Hoe", SkinType.HOE, 8002),
     DARK_MATTER_HOE("&e&lDark Matter Hoe", SkinType.HOE, 8003),
+    ICE_STORM_HOE("&e&lIce Storm Hoe", SkinType.HOE, 8004),
+    AWAKENED_DEMONIC_SCYTHE("&e&lAwakened Demonic Scythe", SkinType.HOE, 8005),
 
     //shovels
     TWILIGHT_SHOVEL("&e&lTwilight Shovel", SkinType.SHOVEL, 9000),
@@ -74,21 +80,29 @@ public enum Skin {
 
     //shears
     JUNGLE_SHEARS("&e&lJungle Shears", SkinType.SHEARS, 11000),
-    PHOENIX_SHEARS("&e&lPhoenix Shears", SkinType.SHEARS, 11001),
+    EMERALD_BLADE_SHEARS("&e&lEmerald Blade Shears", SkinType.SHEARS, 11001),
     SILKY_BUTTER_SHEARS("&e&lSilky Butter Shears", SkinType.SHEARS, 11002),
+    HERO_STONE_SHEARS("&e&lHero Stone Shears", SkinType.SHEARS, 11003),
+    ROYAL_SHEARS("&e&lRoyal Shears", SkinType.SHEARS, 11004),
 
     //fishing rod
     BROKEN_BRANCH_FISHING_ROD("&e&lBroken Branch Fishing Rod", SkinType.FISHING_ROD, 12000),
     GOLDEN_GLORY_FISHING_ROD("&e&lGolden Glory Fishing Rod", SkinType.FISHING_ROD, 12001),
     SUNKEN_GEM_FISHING_ROD("&e&lSunken Gem Fishing Rod", SkinType.FISHING_ROD, 12002),
+    INSIGHT_FISHING_ROD("&e&lInsight Fishing Rod", SkinType.FISHING_ROD, 12003),
+    WADDLES_FISHING_ROD("&e&lWaddles Fishing Rod", SkinType.FISHING_ROD, 12004),
+    FAITHKEEPER_ROD("&e&lFaithkeeper Fishing Rod", SkinType.FISHING_ROD, 12005),
+    MIDNIGHT_ECHO_FISHING_ROD("&e&lMidnight Echo Fishing Rod", SkinType.FISHING_ROD, 12006),
 
     //crossbows
-    CALAMITY_CROSSBOW("&e&lCalamity Crossbow", SkinType.CROSSBOW, 13000),
-    BACKWOODS_CROSSBOW("&e&lBackwoods Crossbow", SkinType.CROSSBOW, 13001),
-    ICE_COLD_CROSSBOW("&e&lIce Cold Crossbow", SkinType.CROSSBOW, 13002),
-    CRYSTAL_CROSSBOW("&e&lCrystal Crossbow", SkinType.CROSSBOW, 13003),
-    ROYAL_CROSSBOW("&e&lRoyal Crossbow", SkinType.CROSSBOW, 13004),
-    DIP_WOOD_CROSSBOW("&e&lDip Wood Crossbow", SkinType.CROSSBOW, 13005),
+    FURY_CROSSBOW("&e&lFury Crossbow", SkinType.CROSSBOW, 13000),
+    RAINBOW_CROSSBOW("&e&lRainbow Crossbow", SkinType.CROSSBOW, 13001),
+    GALAXY_SHOT_CROSSBOW("&e&lGalaxy Shot Crossbow", SkinType.CROSSBOW, 13002),
+    KISS_OF_DEATH_CROSSBOW("&e&lKiss of Death Crossbow", SkinType.CROSSBOW, 13003),
+    LONG_WINTER_CROSSBOW("&e&lLong Winter Crossbow", SkinType.CROSSBOW, 13004),
+    STICKY_SITUATION_CROSSBOW("&e&lSticky Situation Crossbow", SkinType.CROSSBOW, 13005),
+    FERAL_SOUL_CROSSBOW("&e&lFeral Soul Crossbow", SkinType.CROSSBOW, 13006),
+    DEMON_HUNTER_CROSSBOW("&e&lDemon Hunter Crossbow", SkinType.CROSSBOW, 13007),
 
     ;
 
