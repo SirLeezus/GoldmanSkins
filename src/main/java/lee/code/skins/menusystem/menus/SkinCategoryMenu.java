@@ -1,11 +1,13 @@
 package lee.code.skins.menusystem.menus;
 
+import lee.code.core.util.bukkit.BukkitUtils;
 import lee.code.skins.GoldmanSkins;
 import lee.code.skins.lists.Lang;
 import lee.code.skins.lists.SkinType;
 import lee.code.skins.menusystem.PaginatedMenu;
 import lee.code.skins.menusystem.PlayerMU;
 import net.kyori.adventure.text.Component;
+import org.bukkit.GameMode;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
@@ -59,6 +61,10 @@ public class SkinCategoryMenu extends PaginatedMenu {
                 super.open();
                 playClickSound(player);
             } else player.sendMessage(Lang.PREFIX.getComponent(null).append(Lang.ERROR_MENU_NEXT_PAGE.getComponent(null)));
+        } else {
+            if (player.getGameMode().equals(GameMode.CREATIVE)) {
+                BukkitUtils.givePlayerItem(player, clickedItem, 1);
+            }
         }
     }
 
