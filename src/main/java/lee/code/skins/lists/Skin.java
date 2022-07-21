@@ -42,7 +42,7 @@ public enum Skin {
 
     //pickaxes
     FIERY_PICKAXE("&e&lFiery Pickaxe", SkinType.PICKAXE, 6000),
-    ORE_OBLITERATOR("&e&lOre Obliterator Pickaxe", SkinType.PICKAXE, 6001),
+    ORE_OBLITERATOR_PICKAXE("&e&lOre Obliterator Pickaxe", SkinType.PICKAXE, 6001),
     PICK_OF_DESTINY("&e&lPick Of Destiny", SkinType.PICKAXE, 6002),
     HERO_OF_THE_VILLAGE_PICKAXE("&e&lHero Of The Village Pickaxe", SkinType.PICKAXE, 6003),
     YURILILY_PICKAXE("&e&lYurilily Pickaxe", SkinType.PICKAXE, 6004),
@@ -65,7 +65,7 @@ public enum Skin {
     DARK_MATTER_HOE("&e&lDark Matter Hoe", SkinType.HOE, 8003),
     ICE_STORM_HOE("&e&lIce Storm Hoe", SkinType.HOE, 8004),
     AWAKENED_DEMONIC_SCYTHE("&e&lAwakened Demonic Scythe", SkinType.HOE, 8005),
-    SPARKLE_SWEEP_SCYTHE("&e&lSparkle Sweep Hoe", SkinType.HOE, 8006),
+    SPARKLE_SWEEP_HOE("&e&lSparkle Sweep Hoe", SkinType.HOE, 8006),
 
     //shovels
     TWILIGHT_SHOVEL("&e&lTwilight Shovel", SkinType.SHOVEL, 9000),

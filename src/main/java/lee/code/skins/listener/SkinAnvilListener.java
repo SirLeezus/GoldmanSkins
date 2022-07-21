@@ -29,15 +29,9 @@ public class SkinAnvilListener implements Listener {
                         resultMeta.setCustomModelData(skin.getId());
                         result.setItemMeta(resultMeta);
                         e.setResult(result);
-                        if (e.getInventory().getRepairCostAmount() == 0) Bukkit.getServer().getScheduler().runTaskLater(plugin, () -> e.getInventory().setRepairCost(3), 1L);
+                        if (e.getInventory().getRepairCost() < 1) Bukkit.getServer().getScheduler().runTaskLater(plugin, () -> e.getInventory().setRepairCost(1), 1L);
                     }
                 }
-            }
-        } else {
-            ItemStack result = e.getResult();
-            if (result != null) {
-                ItemMeta resultMeta = result.getItemMeta();
-                if (resultMeta.hasCustomModelData() && resultMeta.getCustomModelData() == 4000) e.setResult(null);
             }
         }
     }
